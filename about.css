@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height:60vh;
+    min-height: 95vh;
+    overflow: hidden;
+    
+    background-color: hsl(210 , 36%, 96%);
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
+    transition: all 0.5s linear  ;
+    margin:0 auto;
+}
+.about-bg{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.about-bg:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0, 0.3);
+
+}
+.about-img{
+    border-radius: 50%;
+    width:7.3rem;
+    height:7.3rem;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+p{
+    text-transform: capitalize;
+    word-wrap: break-word;
+    margin: 1.4rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.07rem;
+}
+p{
+
+    margin-top: 4rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    place-items: center;
+    gap: 4rem;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgb(176, 50, 153);
+    color: white;
+    border-radius: 25%;
+    box-shadow: 0 10px 15px rgba(0,0,0, 0.3);
+    cursor: pointer;
+}
+details > p {
+    background-color:black;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #bbbbbb;
+  }
+  .git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgb(176, 50, 153);
+    color: white;
+    border-radius: 25%;
+    box-shadow: 0 10px 15px rgba(0,0,0, 0.3);
+    cursor: pointer;
+  }
+  .top{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: left;
+      top:0;
+      position:absolute;
+      top: 8%;
+      left: 50%;
+      
+  }
+
+  .top a{
+      background-color: rgb(203, 230, 240);
+      color: darkred;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }

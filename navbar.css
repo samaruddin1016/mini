@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fix{
+ 
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(college.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+li {
+       display: inline;
+  }
+li {
+    background-color: lightslategray;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: oblique;
+    font-size: 2rem;
+    
+  }
+  
+  a {
+      float:left;
+    display: block;
+    padding: 8px;
+   
+  }
+   span{
+     margin-left: 45rem;
+     float: right;
+
+   }
+
+  
+  /* Bottom right text */
+  
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .text-block .content {
+   
+    float: left;
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 80%; /* Full width */
+    padding: 30px; /* Some padding */
+  }
+ form{
+     float: right;
+   padding: 0.5em;
+ }
+ input{
+   height: 1.5rem;
+   width: 20rem;
+ }
+ button{
+   cursor: pointer;
+ }
+ * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  position:relative;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (min-width: 480px) {
+  body {
+  
+  }
+}
